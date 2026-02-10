@@ -1,11 +1,9 @@
-
-
 {
     "$schema": "https://schemas.wp.org/wp/6.9/theme.json",
     "version": 3,
     "settings": {
         "blocks": {
-            "core/navigation":{
+            "core/navigation": {
                 "spacing": {
                     "blockGap": true
                 }
@@ -32,7 +30,7 @@
                     "slug": "zk-accent"
                 },
                 {
-                    "color": "#f8f9fa",
+                    "color": "#ffff00",
                     "name": "Zamkai Background",
                     "slug": "zk-background"
                 },
@@ -59,7 +57,7 @@
         },
         "spacing": {
             "defaultSpacingSizes": false,
-			"spacingSizes": [
+            "spacingSizes": [
                 {
                     "name": "Tiny",
                     "size": "0.625rem",
@@ -211,85 +209,85 @@
                 }
             ],
             "fontSizes": [
-				{
-					"fluid": {
-						"min": "0.75rem",
-						"max": "0.875rem"
-					},
-					"name": "Tiny",
-					"size": "0.75rem",
-					"slug": "tiny"
-				},
-				{
-					"fluid": {
-						"min": "0.875rem",
-						"max": "1rem"
-					},
-					"name": "Small",
-					"size": "0.875rem",
-					"slug": "small"
-				},
-				{
-					"fluid": false,
-					"name": "Normal",
-					"size": "1rem",
-					"slug": "Normal"
-				},
-				{
-					"fluid": {
-						"min": "1.125rem",
-						"max": "1.25rem"
-					},
-					"name": "Medium",
-					"size": "1.25rem",
-					"slug": "medium"
-				},
-				{
-					"fluid": {
-						"min": "1.375rem",
-						"max": "1.625rem"
-					},
-					"name": "Large",
-					"size": "1.5rem",
-					"slug": "large"
-				},
-				{
-					"fluid": {
-						"min": "1.75rem",
-						"max": "2.25rem"
-					},
-					"name": "XL",
-					"size": "2rem",
-					"slug": "x-large"
-				},
-				{
-					"fluid": {
-						"min": "2.25rem",
-						"max": "3rem"
-					},
-					"name": "Big",
-					"size": "2.5rem",
-					"slug": "big"
-				},
-				{
-					"fluid": {
-						"min": "2.5rem",
-						"max": "3.5rem"
-					},
-					"name": "Humongasauras",
-					"size": "3rem",
-					"slug": "humongasauras"
-				},
-				{
-					"fluid": {
-						"min": "3rem",
-						"max": "4.5rem"
-					},
-					"name": "Ginormasauras",
-					"size": "4rem",
-					"slug": "ginormasauras"
-				}
-			]
+                {
+                    "fluid": {
+                        "min": "0.75rem",
+                        "max": "0.875rem"
+                    },
+                    "name": "Tiny",
+                    "size": "0.75rem",
+                    "slug": "tiny"
+                },
+                {
+                    "fluid": {
+                        "min": "0.875rem",
+                        "max": "1rem"
+                    },
+                    "name": "Small",
+                    "size": "0.875rem",
+                    "slug": "small"
+                },
+                {
+                    "fluid": false,
+                    "name": "Normal",
+                    "size": "1rem",
+                    "slug": "Normal"
+                },
+                {
+                    "fluid": {
+                        "min": "1.125rem",
+                        "max": "1.25rem"
+                    },
+                    "name": "Medium",
+                    "size": "1.25rem",
+                    "slug": "medium"
+                },
+                {
+                    "fluid": {
+                        "min": "1.375rem",
+                        "max": "1.625rem"
+                    },
+                    "name": "Large",
+                    "size": "1.5rem",
+                    "slug": "large"
+                },
+                {
+                    "fluid": {
+                        "min": "1.75rem",
+                        "max": "2.25rem"
+                    },
+                    "name": "XL",
+                    "size": "2rem",
+                    "slug": "x-large"
+                },
+                {
+                    "fluid": {
+                        "min": "2.25rem",
+                        "max": "3rem"
+                    },
+                    "name": "Big",
+                    "size": "2.5rem",
+                    "slug": "big"
+                },
+                {
+                    "fluid": {
+                        "min": "2.5rem",
+                        "max": "3.5rem"
+                    },
+                    "name": "Humongasauras",
+                    "size": "3rem",
+                    "slug": "humongasauras"
+                },
+                {
+                    "fluid": {
+                        "min": "3rem",
+                        "max": "4.5rem"
+                    },
+                    "name": "Ginormasauras",
+                    "size": "4rem",
+                    "slug": "ginormasauras"
+                }
+            ]
         },
         "useRootPaddingAwareAlignments": true
     },
@@ -297,19 +295,19 @@
         "spacing": {
             "blockGap": "var:preset|spacing|x-small",
             "padding": {
-                "top":"0px",
-                "bottom":"0px",
-                "left":"50px",
-                "right":"50px"
+                "top": "0px",
+                "bottom": "0px",
+                "left": "50px",
+                "right": "50px"
             }
         },
         "blocks": {
-            "core/navigation":{
+            "core/navigation": {
                 "spacing": {
                     "blockGap": "var:preset|spacing|x-small"
                 }
             },
-            "core/button":{
+            "core/button": {
                 "border": {
                     "radius": "0.5rem"
                 }
@@ -355,13 +353,13 @@
                     "letterSpacing": "2px"
                 }
             },
-            "h5":{
+            "h5": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--medium)",
                     "letterSpacing": "2px"
                 }
             },
-            "h6":{
+            "h6": {
                 "typography": {
                     "fontSize": "var(--wp--preset--font-size--normal)",
                     "letterSpacing": "2px"
@@ -378,9 +376,7 @@
                 }
             },
             "link": {
-                "typography": {
-                    
-                },
+                "typography": {},
                 ":hover": {
                     "color": {
                         "text": "var(--wp--preset--color--zk-accent)"
@@ -409,13 +405,12 @@
     ],
     "customTemplates": [
         {
-      "name": "full-width",
-      "title": "Full width",
-      "postTypes": [
-        "page",
-        "post"
-      ]
-    }
+            "name": "full-width",
+            "title": "Full width",
+            "postTypes": [
+                "page",
+                "post"
+            ]
+        }
     ]
 }
-
